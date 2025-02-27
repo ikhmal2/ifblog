@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: Wotfard;
+  src: url("@/public/fonts/wotfard-regular-webfont.ttf");
+}
+
+:root {
+  /* CSS HSL */
+  /* --licorice: hsla(346, 49%, 7%, 1); */
+  --licorice: hsla(346, 37%, 5%, 1);
+  --english-violet: hsla(294, 22%, 25%, 1);
+  --dim-gray: hsla(273, 5%, 42%, 1);
+  --sage: hsla(94, 19%, 67%, 1);
+  --light-green: hsla(103, 65%, 75%, 1);
+
+  --color-text: hsl(210deg 10% 90%);
+}
+
+@theme {
+  --color-primary: hsla(294, 22%, 25%, 1);
+  --color-secondary: hsla(273, 5%, 42%, 1);
+  --color-tertiary: hsla(94, 19%, 67%, 1);
+  --color-cta: hsla(103, 65%, 75%, 1);
+}
+
+body {
+  --viewport-padding: 2rem;
+  font-family: Wotfard, sans-serif;
+  color: var(--color-text);
+  background-color: var(--licorice);
+  /* padding: var(--viewport-padding); */
+}
+
+.logo {
+  color: var(--sage);
+  font-weight: bold;
+  font-size: 2rem;
+}
