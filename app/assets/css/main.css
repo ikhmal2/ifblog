@@ -1,8 +1,6 @@
-@import "tailwindcss";
-
 @font-face {
   font-family: Wotfard;
-  src: url("@/public/fonts/wotfard-regular-webfont.ttf");
+  src: url("/fonts/wotfard-regular-webfont.ttf");
 }
 
 :root {
@@ -36,4 +34,8 @@ body {
   color: var(--sage);
   font-weight: bold;
   font-size: 2rem;
+}
+
+.h4 {
+  @apply text-xl;
 }
