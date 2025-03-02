@@ -1,12 +1,10 @@
 <template>
-	<MainLayout>
-		lancau
-	</MainLayout>
+	<main class="container mx-auto">
+		<LatestArticles />
+	</main>
 </template>
 
 <script setup lang="ts">
-import MainLayout from "@/layout/MainLayout.vue"
-
 </script>
 
 <style scoped></style>

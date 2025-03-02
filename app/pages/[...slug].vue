@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import MainLayout from "@/layout/MainLayout.vue"
 const route = useRoute()
 
 const { data: page } = await useAsyncData('page-' + route.path, () => {
@@ -12,7 +11,5 @@ if (!page.value) {
 </script>
 
 <template>
-	<MainLayout>
-		<ContentRenderer v-if="page" :value="page" />
-	</MainLayout>
+	<ContentRenderer v-if="page" :value="page" />
 </template>
