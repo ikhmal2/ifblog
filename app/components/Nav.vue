@@ -1,5 +1,5 @@
 <template>
-	<header class="flex justify-between items-center px-8 py-4">
+	<header class="flex justify-between items-center py-4 container mx-auto">
 		<a href="/">
 			<span class="logo">Ikhmal Fahmi</span>
 		</a>
