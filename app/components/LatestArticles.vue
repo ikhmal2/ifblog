@@ -1,6 +1,7 @@
 <template>
 	<div>
-		<h4 class="text-xl">Latest Articles</h4>
+		<h4 class="text-xl py-8">Latest Articles</h4>
+		<ArticleCard />
 	</div>
 </template>
 
