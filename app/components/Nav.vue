@@ -19,7 +19,7 @@ header {
 	z-index: 2;
 	top: 0;
 	left: 0;
-	background-color: linear-gradient(to top, transparent 0, var(--top-color) 100%);
 	width: 100dvw;
+	backdrop-filter: blur(16px);
 }
 </style>
